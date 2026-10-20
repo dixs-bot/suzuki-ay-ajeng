@@ -1,8 +1,6 @@
-import { siteConfig } from "../data/siteConfig";
+const baseUrl = "https://suzuki-ay-ajeng.vercel.app";
 
 export default function sitemap() {
-  const baseUrl = "https://www.suzukiuntukbdg.com";
-
   return [
     {
       url: `${baseUrl}/`,
