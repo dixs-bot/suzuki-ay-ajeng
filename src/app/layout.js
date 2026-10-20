@@ -8,8 +8,12 @@ export const viewport = {
 };
 
 export const metadata = {
-  metadataBase: new URL("https://suzuki-rian.vercel.app/"),
+  metadataBase: new URL("https://suzuki-ay-ajeng.vercel.app/"),
 
+  verification: {
+google: "6N-Mfe4cyHyY-Fl9Fo4-iOUfmIVjc_IebHSCy8PsuRA",
+},
+ 
   // === SEO TITLE ===
   title: `Suzuki Ajeng | Sales Mobil Suzuki – Harga, Promo & Kredit`,
 
@@ -29,7 +33,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://suzuki-rian.vercel.app/",
+    canonical: "https://suzuki-ay-ajeng.vercel.app/",
   },
 
   openGraph: {
