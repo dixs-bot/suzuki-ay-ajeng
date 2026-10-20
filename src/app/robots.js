@@ -1,22 +1,15 @@
-import { siteConfig } from "../data/siteConfig";
+const baseUrl = "https://suzuki-ay-ajeng.vercel.app";
 
 export default function robots() {
-  const baseUrl = "https://www.suzukiuntukbdg.com";
-
   return {
     rules: [
       {
         userAgent: "*",
         allow: "/",
-        disallow: [
-          "/api/",
-          "/_next/",
-        ],
+        disallow: ["/api/", "/_next/"],
       },
     ],
-
     sitemap: `${baseUrl}/sitemap.xml`,
-
     host: baseUrl,
   };
 }
